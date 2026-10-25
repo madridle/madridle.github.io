@@ -1,7 +1,7 @@
 <!doctype html><html lang="es"><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Madridle</title>
 <!-- Estadísticas anónimas sin cookies (GoatCounter). No cuenta visitas desde localhost. -->
-<script data-goatcounter="https://zaragozadle.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<script data-goatcounter="https://madridle.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1506,7 +1506,7 @@ var MAPD = {"minor":"M222 12472l58-85 42-59 11-13 134-128 25-17M379 11862l-9 8M4
   function asking() { return phase === "guess" && mode[curIndex()] === "name"; }
   /* Evento anónimo para las estadísticas (partida empezada, terminada, compartida). */
   function track(name) {
-    try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: "madrid-" + name, title: "madrid-" + name, event: true }); } catch (e) {}
+    try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: "" + name, title: "" + name, event: true }); } catch (e) {}
   }
   function esc(s) { return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;"); }
 
